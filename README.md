@@ -78,7 +78,6 @@ portfolio/
 │   ├── utils/           # 유틸리티 함수 모음
 │   ├── App.js           # 메인 앱 컴포넌트
 │   └── index.js         # 앱 진입점
-├── IMPROVEMENTS.md      # 개선 계획 문서
 └── README.md
 ```
 
