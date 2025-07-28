@@ -1,0 +1,73 @@
+[
+  {
+    "category": "프로그래밍 언어",
+    "skills": [
+      {
+        "name": "Python",
+        "progress": 90,
+        "icon": "🐍"
+      },
+      {
+        "name": "PHP",
+        "progress": 50,
+        "icon": "🌐"
+      },
+      {
+        "name": "HTML5/CSS3",
+        "progress": 80,
+        "icon": "📱"
+      },
+      {
+        "name": "JavaScript",
+        "progress": 50,
+        "icon": "💻"
+      },
+      {
+        "name": "MySQL/Oracle",
+        "progress": 80,
+        "icon": "🗄️"
+      }
+    ]
+  },
+  {
+    "category": "편집 도구",
+    "skills": [
+      {
+        "name": "Adobe Premiere Pro",
+        "progress": 60,
+        "icon": "🎬"
+      },
+      {
+        "name": "Adobe After Effects",
+        "progress": 30,
+        "icon": "✨"
+      },
+      {
+        "name": "Adobe Photoshop",
+        "progress": 30,
+        "icon": "🖌️"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "progress": 30,
+        "icon": "🎨"
+      },
+      {
+        "name": "MiriCanvas",
+        "progress": 90,
+        "icon": "🖼️"
+      }
+    ]
+  },
+  {
+    "category": "음향 장비",
+    "skills": [
+      {
+        "name": "Behringer X32",
+        "progress": 90,
+        "icon": "🎛️"
+      }
+    ]
+  }
+  
+]

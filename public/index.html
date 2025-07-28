@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#6c63ff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="황지호의 포트폴리오 웹사이트입니다. 사진, 영상, 음향 분야의 작업물을 확인하세요."
+    />
+    <meta name="keywords" content="포트폴리오, 사진, 영상, 음향, 프로그래밍, 황지호" />
+    <meta name="author" content="황지호" />
+    <meta property="og:title" content="STELLKR | 포트폴리오" />
+    <meta property="og:description" content="황지호의 포트폴리오 웹사이트입니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://stellkr.com" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="STELLKR | 포트폴리오" />
+    <meta property="twitter:description" content="황지호의 포트폴리오 웹사이트입니다." />
+    <meta property="twitter:image" content="%PUBLIC_URL%/og-image.jpg" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://stellkr.com" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>STELLKR | 황지호의 포트폴리오</title>
+  </head>
+  <body>
+    <noscript>이 앱을 실행하려면 JavaScript를 활성화해야 합니다.</noscript>
+    <div id="root" role="main"></div>
+    <!-- 접근성 개선을 위한 스크립트 -->
+    <script>
+      // 키보드 네비게이션 포커스 표시
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Tab') {
+          document.body.classList.add('keyboard-user');
+        }
+      });
+      
+      // 마우스 사용 시 포커스 표시 제거
+      document.addEventListener('mousedown', function() {
+        document.body.classList.remove('keyboard-user');
+      });
+    </script>
+  </body>
+</html>

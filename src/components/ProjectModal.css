@@ -1,0 +1,237 @@
+/* 프로젝트 모달 스타일 */
+.project-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.project-modal {
+  background-color: var(--color-background, #ffffff);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 1000px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-image-gallery {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-nav-btn {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.image-nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image-indicators {
+  display: flex;
+  gap: 8px;
+}
+
+.image-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.image-indicator.active {
+  background-color: white;
+}
+
+.modal-content {
+  padding: 30px;
+}
+
+.modal-description {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.modal-tech-stack h3 {
+  margin-bottom: 10px;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-tag {
+  background-color: var(--color-primary, #6c63ff);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.modal-link {
+  background-color: var(--color-primary, #6c63ff);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.modal-link:hover {
+  background-color: var(--color-primary-dark, #5a52d5);
+}
+
+.project-navigation {
+  display: flex;
+  gap: 10px;
+}
+
+.project-nav-btn {
+  background-color: transparent;
+  border: 1px solid var(--color-text-light, #666666);
+  color: var(--color-text, #333333);
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s;
+}
+
+.project-nav-btn:hover {
+  background-color: var(--color-text-light, #666666);
+  color: white;
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+}
+
+/* 다크모드 스타일 */
+.dark-mode .project-modal {
+  background-color: var(--color-background, #121212);
+}
+
+.dark-mode .tech-tag {
+  background-color: var(--color-primary-dark, #5a52d5);
+}
+
+.dark-mode .project-nav-btn {
+  border-color: var(--color-text-light, #cccccc);
+  color: var(--color-text, #f0f0f0);
+}
+
+.dark-mode .project-nav-btn:hover {
+  background-color: var(--color-text-light, #cccccc);
+  color: var(--color-background, #121212);
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .project-modal {
+    width: 95%;
+  }
+  
+  .modal-image-gallery {
+    height: 250px;
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-actions {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .modal-link {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .project-navigation {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

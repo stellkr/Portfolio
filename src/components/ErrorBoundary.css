@@ -1,0 +1,133 @@
+.error-boundary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--color-background, #f8f9fa);
+}
+
+.error-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.error-container h2 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.error-container p {
+  margin-bottom: 25px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.error-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.reload-button, .home-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.reload-button {
+  background-color: var(--color-primary, #6c63ff);
+  color: white;
+}
+
+.reload-button:hover {
+  background-color: var(--color-primary-dark, #5a52d5);
+}
+
+.home-button {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.home-button:hover {
+  background-color: #e0e0e0;
+}
+
+.error-details {
+  margin-top: 20px;
+  text-align: left;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.error-details summary {
+  cursor: pointer;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.error-details p {
+  color: #e74c3c;
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
+.stack-trace {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #666;
+  white-space: pre-wrap;
+}
+
+/* 다크모드 스타일 */
+.dark-mode .error-boundary {
+  background-color: var(--color-background, #121212);
+}
+
+.dark-mode .error-container {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .error-container h2 {
+  color: #ff6b6b;
+}
+
+.dark-mode .error-container p {
+  color: #ccc;
+}
+
+.dark-mode .home-button {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+.dark-mode .home-button:hover {
+  background-color: #444;
+}
+
+.dark-mode .error-details {
+  border-top-color: #333;
+}
+
+.dark-mode .error-details summary {
+  color: #aaa;
+}
+
+.dark-mode .stack-trace {
+  background-color: #252525;
+  color: #aaa;
+}

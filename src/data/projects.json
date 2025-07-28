@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "교회 예배 영상",
+    "category": "video",
+    "image": "Ready.jpg",
+    "images": ["Ready.jpg"],
+    "description": "B교회 예배 영상 초안 및 편집 작업입니다.",
+    "detailDescription": "B교회의 주일 예배 영상을 촬영하고 편집하는 작업을 담당했습니다. 예배의 모든 순서를 담아내며 교회의 분위기를 잘 전달할 수 있도록 다양한 각도에서 촬영하고 편집했습니다. Adobe Premiere Pro를 활용하여 영상 편집 및 색보정 작업을 진행했습니다.",
+    "technologies": ["Adobe Premiere Pro"],
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "학교 행사 사진",
+    "category": "photo",
+    "image": "Ready.jpg",
+    "images": ["Ready.jpg"],
+    "description": "H고등학교 학교 행사 기록 사진 초안 및 편집 작업입니다.",
+    "detailDescription": "H고등학교의 체육대회, 축제 등 다양한 학교 행사를 기록하는 사진 작업을 진행했습니다. 학생들의 생생한 모습과 행사의 분위기를 담아내기 위해 다양한 구도와 타이밍을 고려하여 촬영했습니다. 촬영 후에는 사진 선별 및 색보정 작업을 통해 최종 결과물을 완성했습니다.",
+    "technologies": ["Camera"],
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "디스코드 봇 개발",
+    "category": "dev",
+    "image": "Ready.jpg",
+    "images": ["Ready.jpg"],
+    "description": "Discord.py를 활용한 디스코드 봇 개발 프로젝트입니다.",
+    "detailDescription": "Python과 Discord.py 라이브러리를 활용하여 다양한 기능을 가진 디스코드 봇을 개발했습니다. 음악 재생, 서버 관리, 게임 기능 등 다양한 명령어를 구현했으며, 비동기 프로그래밍을 통해 효율적인 봇 운영이 가능하도록 설계했습니다. 이후 Disnake 라이브러리로 마이그레이션하여 슬래시 명령어 등 최신 기능도 추가했습니다.",
+    "technologies": ["Python", "Discord.py", "Disnake"],
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "포트폴리오 웹사이트",
+    "category": "dev",
+    "image": "Ready.jpg",
+    "images": ["Ready.jpg"],
+    "description": "React를 활용한 개인 포트폴리오 웹사이트입니다.",
+    "detailDescription": "React를 기반으로 개인 포트폴리오 웹사이트를 개발했습니다. 반응형 디자인을 적용하여 다양한 디바이스에서 최적화된 경험을 제공하며, 애니메이션 효과를 통해 사용자 경험을 향상시켰습니다. 컴포넌트 기반 구조로 코드의 재사용성과 유지보수성을 높였으며, 프로젝트 필터링 기능을 통해 카테고리별로 작업물을 쉽게 확인할 수 있도록 구현했습니다.",
+    "technologies": ["React", "HTML5", "CSS3", "JavaScript"],
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "학교 행사 영상",
+    "category": "video",
+    "image": "Ready.jpg",
+    "images": ["Ready.jpg"],
+    "description": "H고등학교 학교 행사 기록 영상 초안 및 편집 작업입니다.",
+    "detailDescription": "H고등학교의 축제, 체육대회, 졸업식 등 주요 행사를 기록하는 영상 작업을 진행했습니다. 행사의 하이라이트와 학생들의 활기찬 모습을 담아내기 위해 다양한 촬영 기법을 활용했으며, Adobe Premiere Pro를 사용하여 영상 편집, 자막 추가, 배경 음악 삽입 등의 작업을 수행했습니다.",
+    "technologies": ["Adobe Premiere Pro"],
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "학교 행사 포스터",
+    "category": "photo",
+    "image": "Ready.jpg",
+    "images": ["Ready.jpg"],
+    "description": "H고등학교 학교 행사 포스터 디자인 작업입니다.",
+    "detailDescription": "H고등학교의 축제, 체육대회, 동아리 발표회 등 다양한 행사를 위한 포스터 디자인 작업을 진행했습니다. 각 행사의 특성과 분위기를 잘 표현할 수 있는 디자인 컨셉을 설정하고, Adobe Photoshop과 MiriCanvas를 활용하여 시각적으로 매력적인 포스터를 제작했습니다. 학생들의 관심을 끌 수 있는 색상과 구성을 고려하여 디자인했습니다.",
+    "technologies": ["Adobe Photoshop", "MiriCanvas"],
+    "link": "#"
+  }
+]

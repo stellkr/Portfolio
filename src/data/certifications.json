@@ -1,0 +1,44 @@
+[
+  {
+    "title": "해킹보안전문가 3급",
+    "organization": "한국해킹보안협회",
+    "date": "2023.06.05",
+    "icon": "🔒"
+  },
+  {
+    "title": "파이썬마스터 3급",
+    "organization": "한국정보통신진흥협회",
+    "date": "2023.07.14",
+    "icon": "🐍"
+  },
+  {
+    "title": "ITQ 아래한글 A등급",
+    "organization": "한국생산성본부",
+    "date": "2023.06.23",
+    "icon": "📝"
+  },
+  {
+    "title": "ITQ 한글엑셀 B등급",
+    "organization": "한국생산성본부",
+    "date": "2023.07.27",
+    "icon": "📊"
+  },
+  {
+    "title": "ITQ 한글파워포인트 B등급",
+    "organization": "한국생산성본부",
+    "date": "2023.07.27",
+    "icon": "📊"
+  },
+  {
+    "title": "정보기기운용기능사",
+    "organization": "한국산업인력공단",
+    "date": "2025.07.18",
+    "icon": "💻"
+  },
+  {
+    "title": "정보처리산업기사",
+    "organization": "한국산업인력공단",
+    "date": "준비중 (취득예정)",
+    "icon": "🖥️"
+  }
+]
